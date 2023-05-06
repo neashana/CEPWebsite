@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Happy Eaters Catering Ltd |Reviews </title>
+	<link rel="icon" type="image/x-icon" href="images/favicon6.ico">
+	<link rel="icon" type="image/x-icon" href="images/favicon5.ico">
+	<meta charset="UTF-8">
+  	<meta name="description" content="Website Design and Management">
+  	<meta name="keywords" content="Navigation,Responsive Navbar">
+  	<meta name="author" content="CEP Course-Neasha">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" 
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+	<div>	
+			<img src="images/CateringBanner.png" alt="Company website banner" width= "100%" height="150px">
+			
+	</div>
+
+	<div class="topnav" id="myTopnav">
+		<a href="index.html" >Home </a>
+		<a href="about.html"> About Us </a>
+		<div class="dropdown">
+			<button class="dropbtn"> Products
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="beverages.html">Beverages </a>
+				<a href="menu.html">Our Menu</a>
+				<a href="furniture.html">Furniture rentals </a>
+			</div>
+		</div>
+
+
+		<div class="dropdown">
+			<button class="dropbtn"> Services
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="catering.html">Catering </a>
+				<a href="bar.html">Bar service </a>
+				<a href="eventsetup.html">Event Planning </a>
+				
+				<a href="search.html" style="float:right"> Search </a>
+			</div>
+		</div>
+		<a href="contact.html"> Contact Us </a>
+		<a href="feedback.html"> Feedback Form </a>
+		<a href="reviews.html" class="active"> Customer Reviews </a>
+		<a href="search.html" style="float:right"> Search </a>
+		<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+
+	<article style="padding:10 px;">
+		
+		<h2 style="font-family: Brush Script MT; font-size:40px; padding-bottom: 0px; text-align: center;"> REVIEWS </h2>
+		
+		<p  class="cardreview" > 
+			"It is always a pleasure to do business with you and we want to sincerely thank you for being so accommodating at such short notice. The food is always delicious and the service you provide is outstanding. Thank you for providing a delicious meal for those that were not able to spend the day with their families on the holiday." JC.
+		</p>
+
+		<p  class="cardreview" > 
+			"Just want to say quickly.... How everyone, (including myself) were very impressed with the food on Saturday! That salad was even better! I really appreciate all that you did. Thank you. Will be in touch.. Soon!" Jamie S.
+		</p>
+	</article>
+	
+		<div class="center">
+		<button class="accordion">Click here for Review form</button>
+
+		<div class="panel">
+
+		<iframe class="center" src="https://docs.google.com/forms/d/e/1FAIpQLScJQOlhNNHvT47_We3l6o0ns9wdTXQBxGYmpTfO9A560eFC8w/viewform?embedded=true" width="540" height="550" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+		</div>
+		</div>
+	
+
+		
+
+	<!--Nav pane-->
+	<script>
+		function myFunction(){
+			var x= document.getElementById("myTopnav");
+			if (x.className === "topnav"){
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
+
+	<!--accordion-->
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+		  acc[i].addEventListener("click", function() {
+		    this.classList.toggle("active2");
+		    var panel = this.nextElementSibling;
+		    if (panel.style.display === "block") {
+		      panel.style.display = "none";
+		    } else {
+		      panel.style.display = "block";
+		    }
+		  });
+		}
+	</script>
+
+
+	
+	<footer>
+		<div class="column3" >
+			<b style="font-family:Lucida Handwriting; font-size: 20px;"> Contact Us </b>
+
+			<br />
+			<div style="padding-top: 15px;">
+			<a href="mailto:neasha@gmail.com"><img src="images/email.svg" alt="Email" width="48" height="48"> </a>
+			<a href="https://www.facebook.com/"><img src="images/facebook.svg" alt="Facebook" width="48" height="48"> </a>
+			<a href="https://www.instagram.com/"><img src="images/instagram.svg" alt="Instagram" width="48" height="48"> </a>
+			<a href="tel:+18687121955"><img src="images/phone.svg" alt="Phone" width="48" height="48"> </a>
+			<a href="https://wa.me/18687121955 "><img src="images/whatsapp.svg" alt="Whatsapp" width="48" height="48"> </a>
+			</div>
+
+			<div class="box">
+        <a href="#popup-box"> 
+            Click to message!
+        </a>
+    	</div>
+    	<div id="popup-box" class="modal">
+        <div class="content">
+            
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdMjMcyOC_zIQNCq9L9Z79Odl8j9YFhPWer4_ogIvbh6V8w1w/viewform?embedded=true" width="400" height="400" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+
+            <a href="#" 
+               class="box-close">
+                ×
+            </a>
+        </div>
+    </div>
+		</div>	
+
+
+		<div class="column3" >
+		
+    	<ul class="center" style="font-family:Lucida Handwriting; font-size: 20px; text-decoration: none; ">
+    		<li><a href="about.html" target="_blank">ABOUT</a>  </li>
+    		<li> <a href="contact.html" target="_blank">CONTACT FORM</a> </li>
+    		<li> <a href="feedback.html" target="_blank">FEEDBACK FORM</a> </li>
+    		<li> <a href="reviews.html" target="_blank">REVIEWS</a></li>
+    	</ul>
+
+		</div>	
+		<div class="column3" >
+			<a href="index.html" target="_blank"><img src="images/Happy eaters logo6.png" alt="Website logo" width="200" height="150"></a>
+		</div>		
+		
+
+	<div class="copyright">
+		Copyright &copy;2023 Happy Eaters Catering Co. Ltd
+		<br /> All rights reserved
+	</div>
+	</footer>
+</body>
+</html>	
