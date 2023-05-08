@@ -14,9 +14,9 @@ footer{
 		left:0;
 		/*position: fixed;*/
 		width:100%;
-		height: auto;
-		/*height:250px;*/
-		/*margin-top: 20px;*/
+		height:auto;
+		/*height:250px;
+		margin-top: 20px;*/
 		font-size: 10px;
 	}
 
@@ -65,7 +65,7 @@ footer{
   		padding-bottom: 50px;
   		text-decoration: none;
   		color: lightseagreen;
- 
+
 
 }
 
@@ -97,8 +97,10 @@ footer{
   		margin-top: 5px;
   		margin-bottom:5px;
   		float: left;
-  		width: 24.5%;
+  		width: 305px;
   		height:200px;
+  		/*width: 24.5%;
+  		height:200px;*/
   		text-align: center;
 	}
 
@@ -112,7 +114,7 @@ footer{
   		margin-left: 30px;
   		margin-right: 30px;
   		float: left;
-  		width: 40%;
+  		width: 500px;
   		height:200px;
   		text-align: center;
 	}
@@ -156,6 +158,7 @@ footer{
 		font-weight: bold;
 		font-family: cursive;
 		margin-bottom: 60px;
+		margin-top: 30px;
 
 	}	
 
@@ -399,20 +402,115 @@ footer{
   		padding: 0 6px;
   		float: left;
   		width: 33.333%;
+  		
 	}
+
+	.responsivecard{
+		float: left;
+		margin: 1px;
+  		width: 24.5%;
+  		
+  		
+  	}
+
+	.responsivereview{
+		float: left;
+		margin: 1px;
+  		width: 50%;
+  		
+	}
+
+
+	@media only screen and (max-width: 900px) {
+	  .responsive  {
+	    width: 69.99999%;
+	    margin: 6px 0;
+	    
+	  }
+	  .responsivecard  {
+	    width: 69.99999%;
+	    	    
+	  }
+
+	  .responsivereview {
+	    width: 69.99999%;
+	    
+	    
+	  }
+
+	}
+
+
 
 	@media only screen and (max-width: 700px) {
 	  .responsive  {
 	    width: 49.99999%;
 	    margin: 6px 0;
+	    
 	  }
+	  .responsivecard  {
+	    width: 49.99999%;
+	    	    
+	  }
+
+	  .responsivereview {
+	    width: 49.99999%;
+	    
+	    
+	  }
+
 	}
 
 	@media only screen and (max-width: 500px) {
 	  .responsive  {
 	    width: 100%;
+	    
+	  }
+	  .responsivecard  {
+	    width: 100%;
+	    
+	  }
+	  .responsivereview {
+	    width: 100%;
+	    
+	  }
+
+	}
+
+/*
+	@media only screen and (max-width: 700px) {
+	  .responsivecard  {
+	    width: 49.99999%;
+	    	    
+	  }
+
+	}
+
+	
+	@media only screen and (max-width: 500px) {
+	   .responsivecard  {
+	    width: 100%;
+	    
 	  }
 	}
+
+	@media only screen and (max-width: 700px) {
+	   .responsivereview {
+	    width: 49.99999%;
+	    
+	    
+	  }
+	}
+
+	
+	@media only screen and (max-width: 500px) {
+	  .responsivereview {
+	    width: 100%;
+	    
+	  }
+	}
+
+	*/
 
 	.clearfix:after {
 	  content: "";
