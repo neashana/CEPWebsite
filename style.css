@@ -15,7 +15,7 @@ footer{
 		/*position: fixed;*/
 		width:100%;
 		min-height: 250px;
-		height:auto;
+		max-height:auto;
 		/*height:250px;
 		margin-top: 20px;*/
 		font-size: 10px;
